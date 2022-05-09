@@ -94,8 +94,7 @@ I enjoyed voila. It allows me internally to offer my colleagues a way to interac
 
 Please to make sure voila is installed (a pip install viola should do it)
 you can see screen shots of voila working. 
-
-<img width="1134" alt="Screen Shot 2022-05-08 at 11 46 11 PM" src="https://user-images.githubusercontent.com/101449950/167337290-3dc327af-178e-4f34-8ff5-1aec251c88f0.png">
+<img width="1512" alt="Screen Shot 2022-05-08 at 11 43 23 PM" src="https://user-images.githubusercontent.com/101449950/167337522-345cea67-4b2a-4c1c-ae42-6bc5fc5898da.png">
 
 Here is another screenshot of it working in the background in the terminal while I am scroll on the local host
 <img width="788" alt="Screen Shot 2022-05-08 at 11 33 14 PM" src="https://user-images.githubusercontent.com/101449950/167337433-6d2b3341-cab8-4b1e-b9d4-404308e16899.png">
