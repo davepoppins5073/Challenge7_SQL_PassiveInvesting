@@ -86,3 +86,5 @@ pypl_dataframe = query_to_dataframe(query,table)
 ```
 I enjoying using f-strings, as they allow dynamic and complex queries to be built.
 
+## Coding Philosophy w/ SQL and Python
+While I can code some complex structures like cursors in sequel and leverage a lot of clunky  methods and techniques to work with the data housed within a database, it has always been my opinion that there are more tools for data manipulation in python.  I tend to craft a query that isnt a `SELECT *` for performance issues and because the DBA's tend to be high strung with a propensity towards yelling and passive aggressiveness. Then I use python to manipulate the data set how I need it to be. Depending on the data I might after saving to an ionitial dataframe save it to a pickle file so I can always get back to the original data set if need be. Just my two cents though
