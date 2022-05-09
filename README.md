@@ -65,3 +65,24 @@ def cumulative_returns(df=pd.DataFrame()):
     df["cmltv_rtrns"] =(1 + df["daily_returns"]).cumprod()
 
 ```
+
+## Code
+Ive gone to lengths to comment the code, as well as layout why i created the functions I did. So far throughout this repo I havea. collections of function I may pull together into an operation package. The idea behind each of those function is to hve function  ready in case I need to for example calculate the cumulative returns, or the daily returns I can call it. There are many nuance cases so as I continue onwards working on this and building it out the functions will grow in complexity. 
+
+One thing I tried to focus on was the use of f-strings and parameters. This ios very powerful as it allows  a function to take parameters in order to execute a SQL Statement from many places. 
+
+For Example:
+```python
+# Write a SQL query to SELECT all of the data from the PYPL table
+# Variables: 1) the table we will query 2) the query
+table = "PYPL"
+query = f"""
+SELECT * from {table}
+"""
+
+# Function call 1: (query_to_dataframe) to get me my df
+# Function call 2: (about_this_dataframe) to get me info about my df
+pypl_dataframe = query_to_dataframe(query,table)
+```
+I enjoying using f-strings, as they allow dynamic and complex queries to be built.
+
