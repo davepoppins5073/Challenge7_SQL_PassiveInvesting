@@ -88,3 +88,17 @@ I enjoying using f-strings, as they allow dynamic and complex queries to be buil
 
 ## Coding Philosophy w/ SQL and Python
 While I can code some complex structures like cursors in sequel and leverage a lot of clunky  methods and techniques to work with the data housed within a database, it has always been my opinion that there are more tools for data manipulation in python.  I tend to craft a query that isnt a `SELECT *` for performance issues and because the DBA's tend to be high strung with a propensity towards yelling and passive aggressiveness. Then I use python to manipulate the data set how I need it to be. Depending on the data I might after saving to an ionitial dataframe save it to a pickle file so I can always get back to the original data set if need be. Just my two cents though
+
+## VOILA
+I enjoyed voila. It allows me internally to offer my colleagues a way to interact with data more so than spreadsheet and csv.  They can start to see patterns on their own. 
+
+Please to make sure voila is installed (a pip install viola should do it)
+you can see screen shots of voila working. 
+
+<img width="1134" alt="Screen Shot 2022-05-08 at 11 46 11 PM" src="https://user-images.githubusercontent.com/101449950/167337290-3dc327af-178e-4f34-8ff5-1aec251c88f0.png">
+
+Here is another screenshot of it working in the background in the terminal while I am scroll on the local host
+<img width="788" alt="Screen Shot 2022-05-08 at 11 33 14 PM" src="https://user-images.githubusercontent.com/101449950/167337433-6d2b3341-cab8-4b1e-b9d4-404308e16899.png">
+
+
+
